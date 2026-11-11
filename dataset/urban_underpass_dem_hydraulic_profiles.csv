@@ -1,0 +1,249 @@
+basin_id,underpass_name,city_country,latitude,longitude,evac_waypoint_lat,evac_waypoint_lon,dem_grade_elevation_m,dem_rim_high_ground_m,underpass_invert_elevation_m,depression_depth_m,catchment_area_km2,impervious_runoff_coeff,sump_storage_area_m2,installed_pump_capacity_m3_min,downstream_safe_channel_cms,critical_engine_stall_depth_m,roof_submergence_depth_m
+FLD-001,Houston I-10 Whiteoak Bayou Commuter Sump,"Houston, TX, USA",29.775,-95.3969,29.788,-95.382,13.0,19.0,7.8,11.2,14.8,0.86,4200.0,210.0,185.0,0.3,4.5
+FLD-002,NYC Queens Blvd / BQE Depressed Underpass,"New York, NY, USA",40.7368,-73.8985,40.7485,-73.882,12.0,29.0,6.8,22.2,9.6,0.91,3100.0,165.0,130.0,0.3,4.1
+FLD-003,Karachi Shahrah-e-Faisal Karsaz Monsoon Underpass,"Karachi, Pakistan",24.8856,67.0872,24.899,67.078,37.0,52.0,31.8,20.2,16.2,0.88,3800.0,150.0,140.0,0.3,4.3
+FLD-004,Lahore Kalma Chowk Commuter Underpass Basin,"Lahore, Pakistan",31.5034,74.3318,31.5165,74.324,216.0,219.0,210.8,8.2,12.4,0.85,3500.0,180.0,125.0,0.3,4.4
+FLD-005,Dubai Sheikh Zayed / Al Maktoum Cloudburst Sump,"Dubai, UAE",25.2285,55.3273,25.241,55.319,9.0,11.5,3.8,7.7,18.5,0.92,5200.0,195.0,155.0,0.3,4.8
+FLD-006,London North Circular A406 Rail Underbridge Sump,"London, UK",51.5762,-0.1984,51.589,-0.209,66.0,74.0,60.8,13.2,8.4,0.84,2750.0,145.0,115.0,0.3,4.2
+FLD-007,Baku Sabunchu / Heydar Aliyev Tunnel Sump,"Baku, Azerbaijan",40.4395,49.9412,40.451,49.932,18.0,20.5,12.8,7.7,10.2,0.87,2950.0,155.0,120.0,0.3,4.35
+FLD-008,Seoul Gangnam Station Bowl Stormwater Basin,"Seoul, South Korea",37.4979,127.0276,37.5105,127.021,19.0,47.0,13.8,33.2,15.6,0.9,4600.0,240.0,195.0,0.3,4.6
+OSM-SUMP-LANDMARK-11FT8,S Gregson St Norfolk Southern Rail Trestle ('11-Foot-8+8 Can Opener'),"Durham / Raleigh NC, United States",35.9985,-78.90723,36.0095,-78.89623,122.0,124.2,117.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-LANDMARK-MONTAGUE,Montague Street Light Rail Overpass (South Melbourne),"Melbourne Montague St Corridor, Australia",-37.82916,144.94885,-37.81816,144.95985,6.0,8.2,1.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N27334600,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53626,-0.19073,51.54726,-0.17973,39.0,49.0,34.2,14.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N245801562,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50819,0.04493,51.51919,0.05593,6.0,8.2,1.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N245801563,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5081,0.04523,51.5191,0.05623,6.0,8.2,1.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N269138170,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53665,0.00788,51.54765,0.01888,7.0,12.0,2.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N301014982,St John's Wood Car Park,"Greater London Rail Overbridges, United Kingdom",51.53422,-0.17317,51.54522,-0.16217,52.0,54.2,47.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N322959326,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.48567,-0.096,51.49667,-0.085,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N322979546,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.48303,-0.09564,51.49403,-0.08464,5.0,7.2,0.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N332789174,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54163,-0.10919,51.55263,-0.09819,45.0,47.2,40.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N332789713,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54195,-0.10689,51.55295,-0.09589,43.0,45.2,38.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N336260353,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55791,-0.11716,51.56891,-0.10616,31.0,39.0,26.2,12.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N368044118,Baynard House Car Park,"Greater London Rail Overbridges, United Kingdom",51.51185,-0.1001,51.52285,-0.0891,24.0,38.0,19.2,18.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N742961486,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51609,-0.14484,51.52709,-0.13384,35.0,37.2,30.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N818636127,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54805,-0.24946,51.55905,-0.23846,37.0,39.2,32.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1252100784,Mitre Bridge,"Greater London Rail Overbridges, United Kingdom",51.52741,-0.23645,51.53841,-0.22545,34.0,57.0,29.2,27.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1262613029,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54347,-0.15332,51.55447,-0.14232,35.0,37.2,30.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1360237597,QPark Knightsbridge,"Greater London Rail Overbridges, United Kingdom",51.49987,-0.15725,51.51087,-0.14625,16.0,30.0,11.2,18.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1440910031,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54433,-0.00519,51.55533,0.00581,2.0,11.0,-2.8,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1643721360,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.57111,-0.10767,51.58211,-0.09667,44.0,46.2,39.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1658289059,Mitre Bridge,"Greater London Rail Overbridges, United Kingdom",51.5274,-0.23652,51.5384,-0.22552,34.0,57.0,29.2,27.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2001839835,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54433,-0.00502,51.55533,0.00598,2.0,11.0,-2.8,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2014156822,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50981,-0.00687,51.52081,0.00413,5.0,7.2,0.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2135411292,CitiPark London Barbican,"Greater London Rail Overbridges, United Kingdom",51.51845,-0.09739,51.52945,-0.08639,27.0,29.2,22.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2476562671,Orange Car Park Entrance East,"Greater London Rail Overbridges, United Kingdom",51.50914,0.03035,51.52014,0.04135,12.0,14.2,7.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2955167668,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47421,-0.06755,51.48521,-0.05655,8.0,10.2,3.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2955167672,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47424,-0.06776,51.48524,-0.05676,8.0,10.2,3.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2955167677,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47428,-0.06801,51.48528,-0.05701,8.0,10.2,3.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2955167684,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47429,-0.06816,51.48529,-0.05716,8.0,10.2,3.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2955178736,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47445,-0.06768,51.48545,-0.05668,8.0,10.2,3.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N3479105774,Chesterfield House Car Park,"Greater London Rail Overbridges, United Kingdom",51.50717,-0.1499,51.51817,-0.1389,31.0,41.0,26.2,14.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N3479105775,Chesterfield House Car Park,"Greater London Rail Overbridges, United Kingdom",51.50723,-0.14985,51.51823,-0.13885,31.0,41.0,26.2,14.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N3839064068,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.57309,-0.05937,51.58409,-0.04837,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4136817818,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.42852,-0.19027,51.43952,-0.17927,17.0,19.2,12.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4355811097,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53113,-0.21647,51.54213,-0.20547,39.0,45.0,34.2,10.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4355811142,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53146,-0.21518,51.54246,-0.20418,39.0,46.0,34.2,11.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4558469219,Curnock Estate Car Park,"Greater London Rail Overbridges, United Kingdom",51.53779,-0.13888,51.54879,-0.12788,31.0,48.0,26.2,21.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4665352260,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51225,-0.10784,51.52325,-0.09684,14.0,23.0,9.2,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4665352261,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51229,-0.10784,51.52329,-0.09684,14.0,23.0,9.2,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N4709189403,QPark Soho,"Greater London Rail Overbridges, United Kingdom",51.51424,-0.13715,51.52524,-0.12615,38.0,40.2,33.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5347212561,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51201,0.04595,51.52301,0.05695,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5356985573,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55141,-9e-05,51.56241,0.01091,12.0,17.0,7.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5363411166,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.42801,-0.03249,51.43901,-0.02149,24.0,26.2,19.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5471777303,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5408,0.00873,51.5518,0.01973,9.0,12.0,4.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5823971247,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54553,0.01516,51.55653,0.02616,11.0,15.0,6.2,8.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5853572844,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53931,0.03405,51.55031,0.04505,10.0,13.0,5.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5853572851,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53925,0.03383,51.55025,0.04483,10.0,13.0,5.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5998125869,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51119,-0.03133,51.52219,-0.02033,10.0,12.2,5.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6681801201,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54907,0.00883,51.56007,0.01983,12.0,17.0,7.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6681801202,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54905,0.00883,51.56005,0.01983,12.0,17.0,7.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6701012872,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54995,0.01271,51.56095,0.02371,12.0,14.2,7.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6832885573,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47693,-0.03141,51.48793,-0.02041,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6918421508,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50877,-0.08048,51.51977,-0.06948,20.0,22.2,15.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6939535095,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51634,-0.24769,51.52734,-0.23669,13.0,25.0,8.2,16.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7077383346,Decathlon Car Park,"Greater London Rail Overbridges, United Kingdom",51.49805,-0.04637,51.50905,-0.03537,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7112719379,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.49314,-0.16664,51.50414,-0.15564,15.0,17.2,10.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7564369532,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.49806,-0.04632,51.50906,-0.03532,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7694973322,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55284,-0.00142,51.56384,0.00958,9.0,20.0,4.2,15.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7764962880,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.48818,0.01658,51.49918,0.02758,3.0,5.2,-1.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7793508153,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54699,-0.01223,51.55799,-0.00123,15.0,17.2,10.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7793508154,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54736,-0.01273,51.55836,-0.00173,12.0,14.2,7.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7829312700,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54788,-0.00634,51.55888,0.00466,13.0,16.0,8.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7916462859,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5481,-0.00663,51.5591,0.00437,13.0,16.0,8.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7916462860,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54799,-0.0076,51.55899,0.0034,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7928702436,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55302,0.00341,51.56402,0.01441,11.0,19.0,6.2,12.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7938316369,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53386,0.01859,51.54486,0.02959,8.0,12.0,3.2,8.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7951830764,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5335,0.0156,51.5445,0.0266,5.0,13.0,0.2,12.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8044482384,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.52275,-0.16489,51.53375,-0.15389,37.0,39.2,32.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8108820783,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55098,0.01907,51.56198,0.03007,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8111339555,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55248,0.01774,51.56348,0.02874,13.0,16.0,8.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8116593402,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54067,0.02276,51.55167,0.03376,12.0,14.2,7.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8142912720,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54234,0.02341,51.55334,0.03441,12.0,14.2,7.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8145826318,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53252,-0.17236,51.54352,-0.16136,49.0,53.0,44.2,8.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8145826353,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50646,-0.14042,51.51746,-0.12942,32.0,36.0,27.2,8.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8201616200,Chelsea & Westminster Hospital Public Car Park,"Greater London Rail Overbridges, United Kingdom",51.48474,-0.18064,51.49574,-0.16964,16.0,18.2,11.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8344791000,London Dock Basement Parking,"Greater London Rail Overbridges, United Kingdom",51.50793,-0.06661,51.51893,-0.05561,35.0,37.2,30.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8412182170,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.46263,-0.11287,51.47363,-0.10187,19.0,21.2,14.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8430300248,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.46208,-0.19082,51.47308,-0.17982,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8615233111,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53729,0.00557,51.54829,0.01657,5.0,10.0,0.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8772828085,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5065,-0.08961,51.5175,-0.07861,7.0,26.0,2.2,23.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N8822231474,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.4234,-0.05859,51.4344,-0.04759,64.0,66.2,59.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9136430550,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.49667,-0.10101,51.50767,-0.09001,6.0,8.2,1.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9367357536,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54586,-0.01243,51.55686,-0.00143,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9440551035,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55742,-0.01393,51.56842,-0.00293,7.0,19.0,2.2,16.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9506696888,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51026,-0.02888,51.52126,-0.01788,9.0,11.2,4.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9721776483,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47755,0.05155,51.48855,0.06255,54.0,56.2,49.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9721776484,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.47809,0.05194,51.48909,0.06294,54.0,56.2,49.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9740496252,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.56302,-0.18056,51.57402,-0.16956,137.0,139.2,132.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9750224034,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.44552,0.00578,51.45652,0.01678,26.0,28.2,21.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9750224035,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.44539,0.00536,51.45639,0.01636,26.0,28.2,21.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9817076566,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53838,-0.00695,51.54938,0.00405,6.0,8.2,1.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9839962654,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53028,0.00527,51.54128,0.01627,4.0,9.0,-0.8,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10076559074,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51691,0.07704,51.52791,0.08804,9.0,11.2,4.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10076559075,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51645,0.07852,51.52745,0.08952,4.0,6.2,-0.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10076559076,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.516,0.07988,51.527,0.09088,5.0,7.2,0.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10100610124,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.48863,0.06656,51.49963,0.07756,17.0,19.2,12.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10141248303,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.54157,-0.00835,51.55257,0.00265,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10141248305,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5416,-0.0084,51.5526,0.0026,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10203749397,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50947,-0.02659,51.52047,-0.01559,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10282592441,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5359,-0.00625,51.5469,0.00475,4.0,9.0,-0.8,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10282592443,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.53624,-0.00728,51.54724,0.00372,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10542989462,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51053,-0.09117,51.52153,-0.08017,17.0,22.0,12.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10542989463,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51035,-0.09027,51.52135,-0.07927,17.0,29.0,12.2,16.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10578654038,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.52719,-0.23672,51.53819,-0.22572,34.0,57.0,29.2,27.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10578654039,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.52736,-0.23612,51.53836,-0.22512,34.0,57.0,29.2,27.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10578919295,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50238,-0.2268,51.51338,-0.2158,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10578919296,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50241,-0.22662,51.51341,-0.21562,7.0,12.0,2.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10614660689,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55034,-0.22812,51.56134,-0.21712,49.0,51.2,44.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10614691655,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.55007,-0.22821,51.56107,-0.21721,49.0,51.2,44.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10763797816,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.49288,0.04653,51.50388,0.05753,5.0,7.2,0.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10768169970,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.49481,0.03942,51.50581,0.05042,5.0,7.2,0.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10816357744,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.52614,-0.13997,51.53714,-0.12897,35.0,37.2,30.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10841775560,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.50944,-0.02693,51.52044,-0.01593,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10841775561,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.5094,-0.02682,51.5204,-0.01582,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11088729555,Urban Underpass / Bridge,"Greater London Rail Overbridges, United Kingdom",51.51529,-0.10882,51.52629,-0.09782,43.0,45.2,38.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N588194269,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81448,144.97346,-37.80348,144.98446,40.0,45.0,35.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N767693475,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80445,144.9734,-37.79345,144.9844,45.0,47.2,40.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N767726006,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80338,144.96986,-37.79238,144.98086,46.0,48.2,41.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N767726026,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80376,144.97351,-37.79276,144.98451,48.0,50.2,43.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2090588358,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.83929,144.92502,-37.82829,144.93602,5.0,8.0,0.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N5058108333,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.82344,144.96808,-37.81244,144.97908,13.0,19.0,8.2,10.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6876513544,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81271,144.94006,-37.80171,144.95106,5.0,31.0,0.2,30.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N6876513546,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81269,144.9401,-37.80169,144.9511,5.0,31.0,0.2,30.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7024743820,Care Park,"Melbourne Montague St Corridor, Australia",-37.84811,144.99266,-37.83711,145.00366,17.0,19.2,12.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N7986396071,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81189,144.9386,-37.80089,144.9496,4.0,27.0,-0.8,27.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9075241775,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.83053,144.94996,-37.81953,144.96096,3.0,5.2,-1.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N9075241776,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.8292,144.94869,-37.8182,144.95969,9.0,11.2,4.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10598310136,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81243,144.96125,-37.80143,144.97225,26.0,46.0,21.2,24.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N10609269626,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81769,144.9927,-37.80669,145.0037,40.0,42.2,35.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11045598248,Care Park,"Melbourne Montague St Corridor, Australia",-37.84736,144.99272,-37.83636,145.00372,16.0,18.2,11.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11182281878,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81909,144.95458,-37.80809,144.96558,28.0,30.2,23.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11254045888,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80894,144.99605,-37.79794,145.00705,19.0,21.2,14.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11466796105,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81445,144.97368,-37.80345,144.98468,40.0,43.0,35.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11466796106,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81437,144.97395,-37.80337,144.98495,40.0,43.0,35.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N11659062815,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80236,144.96428,-37.79136,144.97528,44.0,46.2,39.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N12259550887,Wilson Parking,"Melbourne Montague St Corridor, Australia",-37.81032,144.96031,-37.79932,144.97131,27.0,46.0,22.2,23.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N12482902432,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81016,144.96589,-37.79916,144.97689,39.0,46.0,34.2,11.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N12482907612,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81003,144.96665,-37.79903,144.97765,39.0,42.0,34.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N12511022481,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81424,144.93856,-37.80324,144.94956,11.0,27.0,6.2,20.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13020279629,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.82239,144.95238,-37.81139,144.96338,3.0,51.0,-1.8,52.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13286947895,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.82167,144.94359,-37.81067,144.95459,2.0,19.0,-2.8,21.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13805855965,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81221,144.96298,-37.80121,144.97398,19.0,47.0,14.2,32.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13859703740,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81638,144.9594,-37.80538,144.9704,39.0,41.2,34.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13859787508,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.8156,144.96258,-37.8046,144.97358,26.0,35.0,21.2,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13866446586,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81594,144.96857,-37.80494,144.97957,38.0,46.0,33.2,12.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13871185394,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81204,144.9671,-37.80104,144.9781,25.0,46.0,20.2,25.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13893269805,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81585,144.96168,-37.80485,144.97268,41.0,43.2,36.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13915751405,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81,144.97051,-37.799,144.98151,37.0,39.2,32.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N13931269132,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81009,144.9692,-37.79909,144.9802,38.0,40.2,33.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W4759024,CityLink,"Melbourne Montague St Corridor, Australia",-37.83318,144.99802,-37.82218,145.00902,13.0,15.2,8.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W5234752,Kings Way,"Melbourne Montague St Corridor, Australia",-37.82715,144.96171,-37.81615,144.97271,4.0,15.0,-0.8,15.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W5234946,West Gate In-Power Ramp Of,"Melbourne Montague St Corridor, Australia",-37.82706,144.9632,-37.81606,144.9742,4.0,7.0,-0.8,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W6867058,Racecourse Road,"Melbourne Montague St Corridor, Australia",-37.78798,144.9284,-37.77698,144.9394,18.0,23.0,13.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W8038199,Jolimont Road,"Melbourne Montague St Corridor, Australia",-37.81619,144.97911,-37.80519,144.99011,14.0,27.0,9.2,17.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W8066124,CityLink,"Melbourne Montague St Corridor, Australia",-37.82687,144.98515,-37.81587,144.99615,4.0,26.0,-0.8,26.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W8066126,CityLink,"Melbourne Montague St Corridor, Australia",-37.82567,144.97622,-37.81467,144.98722,26.0,28.2,21.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W8066129,CityLink In-Kings Ramp Of,"Melbourne Montague St Corridor, Australia",-37.8263,144.96716,-37.8153,144.97816,4.0,6.2,-0.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W8950570,Racecourse Road,"Melbourne Montague St Corridor, Australia",-37.78813,144.92898,-37.77713,144.93998,18.0,20.2,13.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W12279349,Whiteman Street,"Melbourne Montague St Corridor, Australia",-37.82357,144.95951,-37.81257,144.97051,18.0,36.0,13.2,22.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W13366394,Guests Lane,"Melbourne Montague St Corridor, Australia",-37.81416,144.95681,-37.80316,144.96781,34.0,41.0,29.2,11.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W13808373,Vere Street,"Melbourne Montague St Corridor, Australia",-37.80265,144.99388,-37.79165,145.00488,22.0,24.2,17.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W13859464,Sims Street,"Melbourne Montague St Corridor, Australia",-37.80064,144.9117,-37.78964,144.9227,0.0,4.0,-4.8,8.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W13859497,Sims Street,"Melbourne Montague St Corridor, Australia",-37.80058,144.91174,-37.78958,144.92274,0.0,4.0,-4.8,8.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W15857084,Kings Way,"Melbourne Montague St Corridor, Australia",-37.83572,144.97241,-37.82472,144.98341,9.0,11.2,4.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W20920543,Greenwood Street,"Melbourne Montague St Corridor, Australia",-37.80829,144.99287,-37.79729,145.00387,20.0,25.0,15.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W22739047,Evans Street,"Melbourne Montague St Corridor, Australia",-37.83592,144.93811,-37.82492,144.94911,5.0,7.2,0.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W22870551,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80031,144.9588,-37.78931,144.9698,39.0,45.0,34.2,10.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W23051911,Garfield Street,"Melbourne Montague St Corridor, Australia",-37.81189,144.99388,-37.80089,145.00488,20.0,22.2,15.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W23430780,Racecourse Road,"Melbourne Montague St Corridor, Australia",-37.78897,144.93883,-37.77797,144.94983,17.0,22.0,12.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W23907357,Albert Road,"Melbourne Montague St Corridor, Australia",-37.8418,144.95958,-37.8308,144.97058,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W23909982,Southbank Boulevard,"Melbourne Montague St Corridor, Australia",-37.82124,144.96251,-37.81024,144.97351,5.0,42.0,0.2,41.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W24474545,Queens Parade,"Melbourne Montague St Corridor, Australia",-37.78512,144.9951,-37.77412,145.0061,33.0,42.0,28.2,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W24474550,Queens Parade,"Melbourne Montague St Corridor, Australia",-37.7852,144.99509,-37.7742,145.00609,33.0,42.0,28.2,13.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W25687811,Flemington Road,"Melbourne Montague St Corridor, Australia",-37.78723,144.94018,-37.77623,144.95118,6.0,30.0,1.2,28.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W26431242,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81137,144.95284,-37.80037,144.96384,29.0,32.0,24.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W26619038,Kings Way,"Melbourne Montague St Corridor, Australia",-37.82793,144.96218,-37.81693,144.97318,6.0,8.2,1.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W26619050,CityLink,"Melbourne Montague St Corridor, Australia",-37.82622,144.96719,-37.81522,144.97819,4.0,6.2,-0.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W27007196,Dudley Street,"Melbourne Montague St Corridor, Australia",-37.81196,144.945,-37.80096,144.956,5.0,34.0,0.2,33.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W27128331,CityLink,"Melbourne Montague St Corridor, Australia",-37.83242,144.99554,-37.82142,145.00654,15.0,17.2,10.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W27462660,Village Street,"Melbourne Montague St Corridor, Australia",-37.81974,144.94988,-37.80874,144.96088,6.0,42.0,1.2,40.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W27553186,Station Street,"Melbourne Montague St Corridor, Australia",-37.83778,144.93714,-37.82678,144.94814,3.0,5.2,-1.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W27880949,Hobsons Road,"Melbourne Montague St Corridor, Australia",-37.79611,144.91558,-37.78511,144.92658,1.0,17.0,-3.8,20.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W45367192,Punt Road,"Melbourne Montague St Corridor, Australia",-37.82852,144.98809,-37.81752,144.99909,4.0,32.0,-0.8,32.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W45814208,Maribyrnong Street,"Melbourne Montague St Corridor, Australia",-37.80464,144.90749,-37.79364,144.91849,12.0,14.2,7.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W46296475,William Street,"Melbourne Montague St Corridor, Australia",-37.81968,144.96022,-37.80868,144.97122,26.0,28.2,21.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W49454574,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.83124,144.91802,-37.82024,144.92902,4.0,6.2,-0.8,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W54035158,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81312,144.99049,-37.80212,145.00149,19.0,21.2,14.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W55949161,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80239,144.93624,-37.79139,144.94724,4.0,27.0,-0.8,27.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W69022509,Gipps Street,"Melbourne Montague St Corridor, Australia",-37.8051,144.99345,-37.7941,145.00445,20.0,22.2,15.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W71189431,City Road,"Melbourne Montague St Corridor, Australia",-37.82082,144.96872,-37.80982,144.97972,12.0,39.0,7.2,31.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W71189432,City Road,"Melbourne Montague St Corridor, Australia",-37.82076,144.96869,-37.80976,144.97969,12.0,39.0,7.2,31.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W92379004,Macaulay Road,"Melbourne Montague St Corridor, Australia",-37.79455,144.93104,-37.78355,144.94204,15.0,17.2,10.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W92379006,Macaulay Road,"Melbourne Montague St Corridor, Australia",-37.79445,144.93019,-37.78345,144.94119,19.0,21.2,14.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W95465119,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.7821,144.91654,-37.7711,144.92754,15.0,40.0,10.2,29.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W112933971,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81323,144.95863,-37.80223,144.96963,30.0,42.0,25.2,16.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W112933972,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81345,144.96014,-37.80245,144.97114,36.0,43.0,31.2,11.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W131708505,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.81602,144.9835,-37.80502,144.9945,29.0,31.2,24.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W134620345,Kings Way,"Melbourne Montague St Corridor, Australia",-37.82068,144.95778,-37.80968,144.96878,10.0,20.0,5.2,14.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W134621261,Kings Way,"Melbourne Montague St Corridor, Australia",-37.82119,144.95797,-37.81019,144.96897,2.0,26.0,-2.8,28.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W134621272,Spencer Street,"Melbourne Montague St Corridor, Australia",-37.82184,144.95554,-37.81084,144.96654,12.0,34.0,7.2,26.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W134621274,Kings Way,"Melbourne Montague St Corridor, Australia",-37.82064,144.9576,-37.80964,144.9686,10.0,20.0,5.2,14.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W134621885,Spencer Street,"Melbourne Montague St Corridor, Australia",-37.8214,144.9551,-37.8104,144.9661,11.0,19.0,6.2,12.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W135951291,Dudley Street,"Melbourne Montague St Corridor, Australia",-37.81153,144.94638,-37.80053,144.95738,9.0,38.0,4.2,33.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W145108198,Napier Street,"Melbourne Montague St Corridor, Australia",-37.80416,144.90109,-37.79316,144.91209,15.0,17.2,10.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W145108213,Napier Street,"Melbourne Montague St Corridor, Australia",-37.80409,144.90041,-37.79309,144.91141,16.0,18.2,11.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W145366788,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.80109,144.90152,-37.79009,144.91252,23.0,25.2,18.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W154532562,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.84943,144.96534,-37.83843,144.97634,5.0,8.0,0.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W177295977,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.79858,144.96123,-37.78758,144.97223,48.0,50.2,43.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W198538939,Whiteman Street,"Melbourne Montague St Corridor, Australia",-37.82376,144.95932,-37.81276,144.97032,18.0,30.0,13.2,16.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W198715023,Flinders Street,"Melbourne Montague St Corridor, Australia",-37.82099,144.95503,-37.80999,144.96603,11.0,18.0,6.2,11.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W198715024,Flinders Street,"Melbourne Montague St Corridor, Australia",-37.82127,144.95478,-37.81027,144.96578,10.0,18.0,5.2,12.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W198994161,City Road,"Melbourne Montague St Corridor, Australia",-37.83076,144.95445,-37.81976,144.96545,7.0,9.2,2.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W198994162,City Road,"Melbourne Montague St Corridor, Australia",-37.82597,144.95995,-37.81497,144.97095,8.0,10.2,3.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W199009650,Hoddle Street,"Melbourne Montague St Corridor, Australia",-37.78783,144.99514,-37.77683,145.00614,36.0,39.0,31.2,7.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W199652635,Dynon Road,"Melbourne Montague St Corridor, Australia",-37.80171,144.91677,-37.79071,144.92777,3.0,20.0,-1.8,21.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W203430501,Urban Underpass / Bridge,"Melbourne Montague St Corridor, Australia",-37.82422,144.95669,-37.81322,144.96769,7.0,27.0,2.2,24.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W206104866,Flemington Road,"Melbourne Montague St Corridor, Australia",-37.78781,144.9403,-37.77681,144.9513,9.0,30.0,4.2,25.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1462426156,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.40144,49.88696,40.41244,49.89796,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1760944084,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.40147,49.88692,40.41247,49.89792,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N1760944155,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.40454,49.89284,40.41554,49.90384,15.0,22.0,10.2,11.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2556890840,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.40448,49.89292,40.41548,49.90392,15.0,20.0,10.2,9.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-N2556901488,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.40141,49.887,40.41241,49.898,14.0,16.2,9.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W27638811,Heydər Əliyev prospekti,"Baku Transit & Rail Overpasses, Azerbaijan",40.4415,50.00765,40.4525,50.01865,61.0,63.2,56.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W32616383,Əbdülvahab Salamzadə küçəsi,"Baku Transit & Rail Overpasses, Azerbaijan",40.40242,49.81918,40.41342,49.83018,81.0,83.2,76.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W116329446,Tbilisi prospekti,"Baku Transit & Rail Overpasses, Azerbaijan",40.39731,49.81408,40.40831,49.82508,82.0,84.2,77.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W116329450,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.39754,49.81462,40.40854,49.82562,82.0,84.2,77.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W116329452,Tbilisi prospekti,"Baku Transit & Rail Overpasses, Azerbaijan",40.39715,49.81407,40.40815,49.82507,82.0,84.2,77.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W116329455,Əbdülvahab Salamzadə küçəsi,"Baku Transit & Rail Overpasses, Azerbaijan",40.40235,49.8193,40.41335,49.8303,81.0,83.2,76.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W116338017,M1,"Baku Transit & Rail Overpasses, Azerbaijan",40.41107,49.80343,40.42207,49.81443,130.0,132.2,125.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W117600064,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.39672,49.8138,40.40772,49.8248,82.0,84.2,77.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W128721991,Həsən bəy Zərdabi prospekti,"Baku Transit & Rail Overpasses, Azerbaijan",40.4036,49.80759,40.4146,49.81859,112.0,114.2,107.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W128724937,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.40274,49.88179,40.41374,49.89279,16.0,18.2,11.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W128738549,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.39087,49.86667,40.40187,49.87767,-9.0,21.0,-13.8,34.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W133129929,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.387,49.82757,40.398,49.83857,33.0,47.0,28.2,18.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W151460321,Zabrat - Sabunçu şossesi,"Baku Transit & Rail Overpasses, Azerbaijan",40.44349,49.93397,40.45449,49.94497,39.0,41.2,34.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W154836414,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.39045,49.86571,40.40145,49.87671,-9.0,22.0,-13.8,35.8,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W156756364,M1,"Baku Transit & Rail Overpasses, Azerbaijan",40.41113,49.8036,40.42213,49.8146,130.0,132.2,125.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W163789968,Urban Underpass / Bridge,"Baku Transit & Rail Overpasses, Azerbaijan",40.41545,49.80089,40.42645,49.81189,122.0,124.2,117.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W163863468,Tbilisi prospekti,"Baku Transit & Rail Overpasses, Azerbaijan",40.39865,49.81258,40.40965,49.82358,85.0,87.2,80.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2
+OSM-SUMP-W163961209,Moskva prospekti,"Baku Transit & Rail Overpasses, Azerbaijan",40.41168,49.80283,40.42268,49.81383,130.0,132.2,125.2,7.0,11.8,0.87,3250.0,165.0,135.0,0.3,4.2

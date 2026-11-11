@@ -1,0 +1,409 @@
+{
+  "title": "FloodCrest Urban Flash-Flood & Spillway Data",
+  "id": "robinamirbahar/floodcrest-global-urban-flash-flood-spillway",
+  "subtitle": "Real USGS 15-Min Gauges, Copernicus 90m DEM, GloFAS & BigQuery Flood Benchmark",
+  "description": "## Core Research Gap: The Pluvial-Fluvial Double-Peak & Micro-Topography Blind Spot\nRecent 2024-2025 urban hydrology literature identifies three critical failure modes in current flood forecasting and AI-assisted stormwater control:\n1. **Catchment-to-Underpass Scale Mismatch:** Macro-scale river flood models (such as 5 km GloFAS grids or regional gauges) smooth out depressed roadway micro-topography, completely missing how sunken highway underpasses act as hydraulic sump pits that reach the `0.30 m` (`30 cm`) vehicle engine-stall and buoyant-float threshold within 12 to 20 minutes of a cloudburst.\n2. **Pluvial-Fluvial Double-Peak Lag Variance:** Localized impervious surface runoff peaks hours before the main riverine flood wave arrives, causing river-only AI warning systems to leave commuter underpass barriers open during the deadliest flash-inundation window.\n3. **Paradoxical Detention-Spillway Channel Surcharge:** Unconstrained AI/LLM supervisory controllers attempting to drain an `85%+` full upstream retention basin routinely command emergency spillway releases into receiving urban channels already near bankfull capacity, triggering catastrophic downstream levee overtopping.\n\nI assembled the **FloodCrest Global Urban Flash-Flood, DEM & Spillway Dataset** (`3,081` multi-scale records across 5 relational CSV tables) to bridge macro river discharge, hourly pluvial runoff, and 90m DEM underpass concavity for **Google BigQuery StandardSQL analytics** and **Gemma 4** safety-gate benchmarking.\n\n## 100% Transparent Open-Source Data Provenance & Attribution\n1. **USGS 15-Minute Instantaneous Urban Flash-Flood Gauges (`usgs_urban_flashflood_15min_telemetry.csv`, 1,433 records):** Real instantaneous gauge height (`00065`) and discharge (`00060`) observations retrieved from the U.S. Geological Survey National Water Information System (`https://waterservices.usgs.gov/`, U.S. Public Domain).\n2. **Global Urban Underpass Copernicus 90m DEM Inventory (`urban_underpass_dem_hydraulic_profiles.csv`, 248 structures):** Combines OpenStreetMap infrastructure coordinates (`\u00a9 OpenStreetMap contributors`, `ODbL 1.0`) with Copernicus 90m Digital Elevation Model surface and rim elevations (`CC-BY-4.0`) to quantify localized sump depression depths.\n3. **Open-Meteo Hourly Cloudburst & Surface Runoff (`openmeteo_hourly_cloudburst_runoff.csv`, 960 observations):** Real hourly precipitation, overland runoff, topsoil moisture (`0-7 cm`), and wind gusts across Houston, New York, Karachi, Lahore, Dubai, London, Baku, and Seoul (`Weather data by Open-Meteo.com`, `CC-BY-4.0`).\n4. **Copernicus GloFAS Daily Basin Discharge (`glofas_urban_basin_discharge_daily.csv`, 360 basin-days):** Ensemble river discharge reanalysis and forecast series from the Copernicus Emergency Management Service Global Flood Awareness System (`CC-BY-4.0`).\n5. **FloodCrest 80-Scenario Hydraulic & Spillway Safety Benchmark (`floodcrest_dispatch_benchmark_80.csv`, 80 scenarios):** Pairs real Project OSRM (`BSD-2-Clause`) high-ground evacuation route distances with closed-form Rational Method `30 cm` stall countdowns and `<= 95%` downstream channel surcharge caps to test pluvial-fluvial double-peak AI failure modes.\n",
+  "isPrivate": false,
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "earth and nature",
+    "engineering",
+    "transportation",
+    "computer science",
+    "sql"
+  ],
+  "collaborators": [],
+  "expectedUpdateFrequency": "monthly",
+  "userSpecifiedSources": "USGS NWIS Water Services API (Public Domain), Copernicus 90m DEM & GloFAS via Open-Meteo.com (CC-BY-4.0), OpenStreetMap Contributors (ODbL 1.0), and Project OSRM (BSD-2-Clause).",
+  "resources": [
+    {
+      "path": "usgs_urban_flashflood_15min_telemetry.csv",
+      "description": "1,433 real 15-minute instantaneous urban stream-gauge stage (00065) and discharge (00060) observations from USGS NWIS across 8 flash-flood-prone metro basins.",
+      "schema": {
+        "fields": [
+          {
+            "name": "site_id",
+            "description": "Official 8-digit USGS National Water Information System stream-gauge station ID.",
+            "type": "string"
+          },
+          {
+            "name": "station_name",
+            "description": "Official USGS urban basin monitoring station title and metro corridor.",
+            "type": "string"
+          },
+          {
+            "name": "state_code",
+            "description": "Two-letter US state or district postal code.",
+            "type": "string"
+          },
+          {
+            "name": "latitude",
+            "description": "WGS84 latitude of the monitoring gauge or depressed roadway sump.",
+            "type": "numeric"
+          },
+          {
+            "name": "longitude",
+            "description": "WGS84 longitude of the monitoring gauge or depressed roadway sump.",
+            "type": "numeric"
+          },
+          {
+            "name": "timestamp_iso",
+            "description": "ISO-8601 observation timestamp from USGS 15-minute instantaneous feed.",
+            "type": "datetime"
+          },
+          {
+            "name": "stage_height_ft",
+            "description": "Measured river or bayou stage gauge height in feet (USGS parameter 00065).",
+            "type": "numeric"
+          },
+          {
+            "name": "stage_height_m",
+            "description": "Measured river or bayou stage gauge height converted to meters.",
+            "type": "numeric"
+          },
+          {
+            "name": "discharge_cfs",
+            "description": "Instantaneous volumetric water discharge in cubic feet per second (USGS 00060).",
+            "type": "numeric"
+          },
+          {
+            "name": "discharge_cms",
+            "description": "Instantaneous volumetric water discharge converted to cubic meters per second.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "urban_underpass_dem_hydraulic_profiles.csv",
+      "description": "248 real urban underpasses and depressed highway portals combining OpenStreetMap infrastructure geometry with Copernicus 90m Digital Elevation Model (DEM) invert vs. high-ground rim profiles.",
+      "schema": {
+        "fields": [
+          {
+            "name": "basin_id",
+            "description": "Unique FloodCrest urban basin or OSM underpass sump identifier.",
+            "type": "string"
+          },
+          {
+            "name": "underpass_name",
+            "description": "Roadway underpass, tunnel, or commuter sump name.",
+            "type": "string"
+          },
+          {
+            "name": "city_country",
+            "description": "Metropolitan city and country name.",
+            "type": "string"
+          },
+          {
+            "name": "latitude",
+            "description": "WGS84 latitude of the monitoring gauge or depressed roadway sump.",
+            "type": "numeric"
+          },
+          {
+            "name": "longitude",
+            "description": "WGS84 longitude of the monitoring gauge or depressed roadway sump.",
+            "type": "numeric"
+          },
+          {
+            "name": "evac_waypoint_lat",
+            "description": "WGS84 latitude of verified high-ground arterial evacuation waypoint.",
+            "type": "numeric"
+          },
+          {
+            "name": "evac_waypoint_lon",
+            "description": "WGS84 longitude of verified high-ground arterial evacuation waypoint.",
+            "type": "numeric"
+          },
+          {
+            "name": "dem_grade_elevation_m",
+            "description": "Surrounding road-grade surface elevation in meters from Copernicus 90m DEM.",
+            "type": "numeric"
+          },
+          {
+            "name": "dem_rim_high_ground_m",
+            "description": "Adjacent high-ground crest elevation in meters from Copernicus 90m DEM.",
+            "type": "numeric"
+          },
+          {
+            "name": "underpass_invert_elevation_m",
+            "description": "Depressed roadway sump invert elevation in meters above sea level.",
+            "type": "numeric"
+          },
+          {
+            "name": "depression_depth_m",
+            "description": "Vertical hydraulic trap depth from high-ground rim to sump invert in meters.",
+            "type": "numeric"
+          },
+          {
+            "name": "catchment_area_km2",
+            "description": "Contributing urban stormwater drainage area in square kilometers.",
+            "type": "numeric"
+          },
+          {
+            "name": "impervious_runoff_coeff",
+            "description": "Dimensionless Rational Method impervious surface runoff coefficient C (0 to 1).",
+            "type": "numeric"
+          },
+          {
+            "name": "sump_storage_area_m2",
+            "description": "Effective depressed roadway ponding footprint in square meters.",
+            "type": "numeric"
+          },
+          {
+            "name": "installed_pump_capacity_m3_min",
+            "description": "Total N+1 stormwater pump station extraction rate in cubic meters per minute.",
+            "type": "numeric"
+          },
+          {
+            "name": "downstream_safe_channel_cms",
+            "description": "Maximum non-overtopping downstream river channel capacity in m3/s.",
+            "type": "numeric"
+          },
+          {
+            "name": "critical_engine_stall_depth_m",
+            "description": "Standing floodwater depth (0.30 m) that stalls engines and floats passenger cars.",
+            "type": "numeric"
+          },
+          {
+            "name": "roof_submergence_depth_m",
+            "description": "Overhead clearance / full vehicle submergence depth in meters.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "openmeteo_hourly_cloudburst_runoff.csv",
+      "description": "960 real hourly hydrometeorology observations (precipitation mm/hr, surface runoff, 0-7cm topsoil moisture, and 10m wind gusts) across 8 global cities.",
+      "schema": {
+        "fields": [
+          {
+            "name": "basin_id",
+            "description": "Unique FloodCrest urban basin or OSM underpass sump identifier.",
+            "type": "string"
+          },
+          {
+            "name": "underpass_name",
+            "description": "Roadway underpass, tunnel, or commuter sump name.",
+            "type": "string"
+          },
+          {
+            "name": "city_country",
+            "description": "Metropolitan city and country name.",
+            "type": "string"
+          },
+          {
+            "name": "timestamp_utc",
+            "description": "UTC hourly observation timestamp from Open-Meteo hydrology feed.",
+            "type": "datetime"
+          },
+          {
+            "name": "precipitation_mm_hr",
+            "description": "Hourly rainfall intensity in millimeters per hour.",
+            "type": "numeric"
+          },
+          {
+            "name": "surface_runoff_mm_hr",
+            "description": "Hourly overland stormwater runoff depth in millimeters per hour.",
+            "type": "numeric"
+          },
+          {
+            "name": "topsoil_moisture_m3_m3",
+            "description": "Volumetric 0-7cm topsoil moisture content in m3/m3.",
+            "type": "numeric"
+          },
+          {
+            "name": "wind_gust_kmh",
+            "description": "10-meter peak wind gust speed in kilometers per hour.",
+            "type": "numeric"
+          },
+          {
+            "name": "cloudburst_watch_flag",
+            "description": "Boolean flag true when hourly precipitation reaches >= 25 mm/hr.",
+            "type": "boolean"
+          }
+        ]
+      }
+    },
+    {
+      "path": "glofas_urban_basin_discharge_daily.csv",
+      "description": "360 daily urban river discharge reanalysis and forecast rows from Copernicus GloFAS compared against downstream safe channel capacities.",
+      "schema": {
+        "fields": [
+          {
+            "name": "basin_id",
+            "description": "Unique FloodCrest urban basin or OSM underpass sump identifier.",
+            "type": "string"
+          },
+          {
+            "name": "underpass_name",
+            "description": "Roadway underpass, tunnel, or commuter sump name.",
+            "type": "string"
+          },
+          {
+            "name": "city_country",
+            "description": "Metropolitan city and country name.",
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "description": "Calendar observation or forecast date (YYYY-MM-DD).",
+            "type": "string"
+          },
+          {
+            "name": "glofas_discharge_mean_cms",
+            "description": "Copernicus GloFAS ensemble mean daily river discharge in m3/s.",
+            "type": "numeric"
+          },
+          {
+            "name": "glofas_discharge_max_cms",
+            "description": "Copernicus GloFAS ensemble maximum daily river discharge in m3/s.",
+            "type": "numeric"
+          },
+          {
+            "name": "glofas_discharge_median_cms",
+            "description": "Copernicus GloFAS ensemble median daily river discharge in m3/s.",
+            "type": "numeric"
+          },
+          {
+            "name": "downstream_channel_capacity_cms",
+            "description": "Safe bankfull channel discharge limit in cubic meters per second.",
+            "type": "numeric"
+          },
+          {
+            "name": "channel_capacity_utilization_pct",
+            "description": "Peak daily river discharge expressed as percentage of safe channel capacity.",
+            "type": "numeric"
+          }
+        ]
+      }
+    },
+    {
+      "path": "floodcrest_dispatch_benchmark_80.csv",
+      "description": "80-scenario urban stormwater safety benchmark pairing real OSRM high-ground evacuation routes with Rational Method 30cm engine-stall countdowns and <=95% spillway surcharge caps.",
+      "schema": {
+        "fields": [
+          {
+            "name": "scenario_id",
+            "description": "Unique benchmark scenario identifier (FSCN-001 through FSCN-080).",
+            "type": "string"
+          },
+          {
+            "name": "basin_id",
+            "description": "Unique FloodCrest urban basin or OSM underpass sump identifier.",
+            "type": "string"
+          },
+          {
+            "name": "underpass_name",
+            "description": "Roadway underpass, tunnel, or commuter sump name.",
+            "type": "string"
+          },
+          {
+            "name": "city_country",
+            "description": "Metropolitan city and country name.",
+            "type": "string"
+          },
+          {
+            "name": "storm_regime",
+            "description": "Meteorological storm intensity regime code.",
+            "type": "string"
+          },
+          {
+            "name": "pump_health_state",
+            "description": "Pump station availability state (100% online vs 50% degraded bank).",
+            "type": "string"
+          },
+          {
+            "name": "cloudburst_mm_hr",
+            "description": "Active cloudburst rainfall rate in millimeters per hour.",
+            "type": "numeric"
+          },
+          {
+            "name": "retention_basin_fill_pct",
+            "description": "Upstream stormwater retention basin storage utilization percentage.",
+            "type": "numeric"
+          },
+          {
+            "name": "downstream_river_cms",
+            "description": "Current downstream receiving river discharge in m3/s.",
+            "type": "numeric"
+          },
+          {
+            "name": "downstream_safe_limit_cms",
+            "description": "Maximum safe receiving channel discharge in m3/s before overtopping.",
+            "type": "numeric"
+          },
+          {
+            "name": "inflow_m3_min",
+            "description": "Rational Method micro-catchment stormwater inflow into sump in m3/min.",
+            "type": "numeric"
+          },
+          {
+            "name": "effective_pump_m3_min",
+            "description": "Available stormwater pump extraction capacity in m3/min.",
+            "type": "numeric"
+          },
+          {
+            "name": "net_accumulation_m3_min",
+            "description": "Net unpumped water accumulation rate inside the depressed underpass in m3/min.",
+            "type": "numeric"
+          },
+          {
+            "name": "minutes_to_30cm_stall_flood",
+            "description": "Exact countdown minutes until water reaches 0.30 m engine-stall depth.",
+            "type": "numeric"
+          },
+          {
+            "name": "desired_spillway_gate_pct",
+            "description": "Uncapped retention spillway gate opening percentage requested by fill level.",
+            "type": "numeric"
+          },
+          {
+            "name": "approved_spillway_gate_pct",
+            "description": "Guardrail-clamped spillway gate percentage respecting <=95% downstream river cap.",
+            "type": "numeric"
+          },
+          {
+            "name": "downstream_surcharge_interlock",
+            "description": "True when spillway release was clamped to prevent downstream flooding.",
+            "type": "boolean"
+          },
+          {
+            "name": "road_barriers_closed",
+            "description": "True when automated drop-arm underpass flood barriers are locked.",
+            "type": "boolean"
+          },
+          {
+            "name": "pump_duty_pct",
+            "description": "Commanded stormwater pump station operating duty percentage.",
+            "type": "numeric"
+          },
+          {
+            "name": "osrm_underpass_route_km",
+            "description": "Primary through-underpass driving distance in kilometers via OSRM.",
+            "type": "numeric"
+          },
+          {
+            "name": "osrm_high_ground_evac_km",
+            "description": "Verified high-ground bypass evacuation distance in kilometers via OSRM.",
+            "type": "numeric"
+          },
+          {
+            "name": "gold_dispatch_status",
+            "description": "Ground-truth deterministic safety dispatch verdict.",
+            "type": "string"
+          },
+          {
+            "name": "hydraulic_trap_note",
+            "description": "Engineering explanation of the governing hydraulic constraint.",
+            "type": "string"
+          }
+        ]
+      }
+    }
+  ]
+}
