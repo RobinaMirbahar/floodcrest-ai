@@ -5,8 +5,8 @@
 [![Google BigQuery](https://img.shields.io/badge/Warehouse-Google_BigQuery_SQL-4285F4?logo=googlebigquery&logoColor=white)](https://cloud.google.com/bigquery/docs)
 [![Gemma 4](https://img.shields.io/badge/Model-Gemma_4_(Open_Weights)-0F9D58?logo=googlecloud)](https://ai.google.dev/gemma/docs)
 [![Cloud Run](https://img.shields.io/badge/Deploy-Google_Cloud_Run-FFCA28?logo=googlecloud)](https://cloud.google.com/run/docs)
-[![Kaggle Dataset](https://img.shields.io/badge/Kaggle_Dataset-3%2C081_Hydrology_Records-20BEFF?logo=kaggle)](https://www.kaggle.com/datasets/robinamirbahar/floodcrest-global-urban-flash-flood-spillway)
-[![License](https://img.shields.io/badge/License-Apache_2.0-10B981)](https://opensource.org/licenses/Apache-2.0)
+[![Kaggle Dataset](https://img.shields.io/badge/Public_Data_Sources-USGS_%7C_Copernicus_%7C_OSM-20BEFF)](https://waterservices.usgs.gov/)
+[![Code License](https://img.shields.io/badge/Code_License-Apache_2.0-10B981)](LICENSE)
 
 **Author:** Robina Mirbahar (*Google Developer Expert in AI/ML & Cloud*)
 
@@ -39,9 +39,9 @@ flowchart TD
 
 ---
 
-## 📊 100% Real Multi-Scale Open Dataset (`dataset/` • 3,081 Records)
+## 📊 Multi-Scale Third-Party Public Data Sources (`dataset/` • 3,081 Records)
 
-Published openly on Kaggle at **[FloodCrest Urban Flash-Flood & Spillway Data](https://www.kaggle.com/datasets/robinamirbahar/floodcrest-global-urban-flash-flood-spillway)** with transparent upstream open-source attributions:
+All hydrological, elevation, and road-network records in `dataset/` belong to their respective upstream public providers (USGS, Copernicus EMS / GloFAS, Open-Meteo, and OpenStreetMap contributors) under their original licenses (see [`LICENSE`](LICENSE) for full ownership and attributions):
 
 | Table | Rows | Authoritative Public Source & License |
 | :--- | ---: | :--- |
