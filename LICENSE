@@ -1,0 +1,24 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   Copyright 2026 Robina Mirbahar
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+   ---
+   THIRD-PARTY OPEN DATA ATTRIBUTIONS (dataset/):
+   1. U.S. Geological Survey (USGS) National Water Information System (NWIS) 15-minute stream-gauge data: Public Domain (17 U.S.C. 105).
+   2. Copernicus 90m Digital Elevation Model (DEM) & Copernicus Emergency Management Service Global Flood Awareness System (GloFAS) river discharge series retrieved via Open-Meteo APIs (https://open-meteo.com/): CC-BY-4.0.
+   3. Roadway and underpass coordinate references: (c) OpenStreetMap contributors (https://www.openstreetmap.org/copyright, ODbL 1.0).
+   4. Routing distances computed via Project OSRM (http://project-osrm.org/, BSD-2-Clause).
