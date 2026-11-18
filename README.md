@@ -38,17 +38,6 @@ flowchart TD
     D -->|"Gate 2: Downstream River >= 95% Cap"| F["🌊 Clamp Spillway Gate % (Prevent Levee Surcharge)"]
     D -->|"Gate 3: Pump Bank Degraded (< 100%)"| G["⚙️ N+1 Redundancy Compensation & Preemptive Divert"]
     D -->|"Gate 4: Barrier Closed"| H["🗺️ Live OSRM High-Ground Crest Evacuation Vector"]
-    style A fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style Feeds fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style Warehouse fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style C fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style D fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style E fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
-    style F fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
-    style Degraded fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
-    style G fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
-    style H fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
 ```
 
 ---
