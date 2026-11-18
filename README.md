@@ -10,8 +10,11 @@
 
 **Author:** Robina Mirbahar (*Google Developer Expert in AI/ML & Cloud*)
 
----
+> **Author & Architect:** [Robina Mirbahar](https://github.com/RobinaMirbahar) ([Google Developer Expert in Cloud & AI](https://developers.google.com/profile/u/106918534005910641104?utm_campaign=deveco_gdemembers&utm_source=deveco) · Google Cloud Champion Innovator · Co-Author of [*AI Engineering*](https://www.amazon.com/dp/B0GWCZWCF4))  
+> 📚 **Architecture Track:** Pluvial-Fluvial Flood Forecasting & Deterministic Spillway/Underpass Safety Interlocks  
+> **Core Stack:** [Google BigQuery StandardSQL](https://cloud.google.com/bigquery/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), Open-Weights [Google Gemma 4](https://ai.google.dev/gemma/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), [Google Cloud Run](https://cloud.google.com/run/docs?utm_campaign=deveco_gdemembers&utm_source=deveco), Python, and Streamlit.
 
+---
 ## 🔬 The Real-World Research Gap (2024-2025 Urban Hydrology & AI Safety Literature)
 
 Recent peer-reviewed urban flood modeling and AI supervisory-control studies highlight **three critical gaps** between regional hydrological forecasting and life-critical road/spillway operations:
@@ -35,6 +38,17 @@ flowchart TD
     D -->|"Gate 2: Downstream River >= 95% Cap"| F["🌊 Clamp Spillway Gate % (Prevent Levee Surcharge)"]
     D -->|"Gate 3: Pump Bank Degraded (< 100%)"| G["⚙️ N+1 Redundancy Compensation & Preemptive Divert"]
     D -->|"Gate 4: Barrier Closed"| H["🗺️ Live OSRM High-Ground Crest Evacuation Vector"]
+    style A fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style Feeds fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style B fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style Warehouse fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style C fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style D fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style E fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
+    style F fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#581c87
+    style Degraded fill:#fce7f3,stroke:#db2777,stroke-width:2px,color:#831843
+    style G fill:#dbeafe,stroke:#2563eb,stroke-width:2px,color:#1e3a8a
+    style H fill:#dcfce7,stroke:#16a34a,stroke-width:2px,color:#14532d
 ```
 
 ---
